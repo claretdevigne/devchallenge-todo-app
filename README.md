@@ -28,5 +28,4 @@ Este es un proyecto personal de una aplicación TODO con el proposito de mostrar
 - Pulsa en "ALL", "ACTIVE" o "COMPLETED" para ver todas las tareas, las activas y las que ya estén completadas.
 - Pulsa en "COMPLETED" y te saldrá la opción para eliminar tanto todas las tareas como una sola en particular.
 
-Created by [CLARET DEVIGNE](https://claretdevigne.netlify.app)
-Email: claretdevigne@gmail.com
+Created by [CLARET DEVIGNE](https://claretdevigne.netlify.app) - Email: claretdevigne@gmail.com
