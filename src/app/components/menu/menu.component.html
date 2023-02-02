@@ -1,0 +1,13 @@
+<div class="d-flex justify-content-center w-50 mx-auto">
+  <p class="app-menu-option col text-center" (click)="applyFilter('ALL')">All</p>
+  <p class="app-menu-option col text-center" (click)="applyFilter('ACTIVE')">Active</p>
+  <p class="app-menu-option col text-center" (click)="applyFilter('COMPLETED')">Completed</p>
+</div>
+<div class="d-flex justify-content-center w-50 mx-auto border-bottom" style="height: 5px;">
+  <div *ngIf="activeOption === 'ALL'" class="col bg-primary rounded-3 w-25"></div>
+  <div *ngIf="!(activeOption === 'ALL')" class="col"></div>
+  <div *ngIf="activeOption === 'ACTIVE'" class="col bg-primary rounded-3 w-25"></div>
+  <div *ngIf="activeOption !== 'ACTIVE'" class="col"></div>
+  <div *ngIf="activeOption === 'COMPLETED'" class="col bg-primary rounded-3 w-25"></div>
+  <div *ngIf="activeOption !== 'COMPLETED'" class="col"></div>
+</div>

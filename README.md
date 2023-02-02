@@ -1,27 +1,30 @@
-# AngularTodo
+# TODO APP
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.3.
+## Descripción
 
-## Development server
+Este es un proyecto personal de una aplicación TODO con el proposito de mostrar mis habilidades y conocimientos.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Proceso del trabajo
+- La app fue creada usando el framework de Angular y el lenguaje de TypeScript.
+- Está formado por 4 componentes:
+  - App Component - Componente principal que renderiza los otros tres componentes y realiza la lógica de
+  la aplicación.
+  - Menu Component - Renderiza el menú de opciones.
+  - Form Component - Renderiza el formulario para agregar tareas.
+  - Show-Task Component - Renderiza las tareas.
 
-## Code scaffolding
+## Instalación
+- Clona el repositorio
+- En la terminal entra a la carpeta del repositorio y utiliza "npm i" para instalar todas las dependecias.
+- Ejecuta en la terminal "npm start".
+- En cualquier explorador entra a "localhost:4200" para ver la página web.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Uso
+- Ingresa el nombre de una tarea en el formulario. (No puedes colocar el mismo nombre a dos tareas).
+- Pulsa "Add Task" para ingresar la tarea.
+- La tarea aparecerá reflejada en la parte inferior.
+- Marca la casilla cuando la tarea haya sido completada, esto tachará el titulo de la tarea.
+- Pulsa en "ALL", "ACTIVE" o "COMPLETED" para ver todas las tareas, las activas y las que ya estén completadas.
+- Pulsa en "COMPLETED" y te saldrá la opción para eliminar tanto todas las tareas como una sola en particular.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Created by CLARET DEVIGNE

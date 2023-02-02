@@ -1,0 +1,11 @@
+<div *ngFor="let task of tasksList" class="w-50 mx-auto d-flex align-items-center mb-2 justify-content-between">
+  <div class="d-flex gap-2">
+    <input (change)="handleCheck(task)" type="checkbox" [checked]="task.completed">
+    <div style="text-decoration: line-through;" *ngIf="task.completed">{{ task.title }}</div>
+    <div *ngIf="!task.completed">{{ task.title }}</div>
+  </div>
+  <i (click)="handleDeleteTask(task.title)" *ngIf="completed" class="bi bi-trash3 pointer"></i>
+</div>
+<div *ngIf="completed" class="w-50 mx-auto d-flex justify-content-end mt-5">
+  <button class="btn btn-danger" (click)="handleDelete()">Delete all</button>
+</div>
