@@ -1,6 +1,12 @@
 {
-  "name": "angular-todo",
-  "version": "0.0.0",
+  "name": "Todo App",
+  "version": "1.0.0",
+  "author": {
+    "name": "Claret Devigne",
+    "email": "claretdevigne@gmail.com",
+    "url": "https://claretdevigne.netlify.app",
+  },
+  "license": "MIT",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
