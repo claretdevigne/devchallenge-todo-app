@@ -20,6 +20,7 @@ Este es un proyecto personal de una aplicación TODO con el proposito de mostrar
 - En cualquier explorador entra a "localhost:4200" para ver la página web.
 
 ## Uso
+- Abre la aplicacion --> [AQUÍ](https://app.netlify.com/sites/todo-angular-claretdevigne)
 - Ingresa el nombre de una tarea en el formulario. (No puedes colocar el mismo nombre a dos tareas).
 - Pulsa "Add Task" para ingresar la tarea.
 - La tarea aparecerá reflejada en la parte inferior.
@@ -27,4 +28,5 @@ Este es un proyecto personal de una aplicación TODO con el proposito de mostrar
 - Pulsa en "ALL", "ACTIVE" o "COMPLETED" para ver todas las tareas, las activas y las que ya estén completadas.
 - Pulsa en "COMPLETED" y te saldrá la opción para eliminar tanto todas las tareas como una sola en particular.
 
-Created by CLARET DEVIGNE
+Created by [CLARET DEVIGNE](https://claretdevigne.netlify.app)
+Email: claretdevigne@gmail.com
